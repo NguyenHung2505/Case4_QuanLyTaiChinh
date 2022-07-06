@@ -1,4 +1,4 @@
-package com.example.nhom4_quanlytaichinh.model;
+package com.example.nhom4_quanlytaichinh.model.account;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -83,5 +83,8 @@ public class Transaction {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    public void setImage(String fileName) {
     }
 }

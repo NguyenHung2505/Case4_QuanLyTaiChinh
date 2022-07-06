@@ -1,6 +1,7 @@
-package com.example.nhom4_quanlytaichinh.model;
+package com.example.nhom4_quanlytaichinh.model.account;
 
 
+import com.example.nhom4_quanlytaichinh.model.account.MoneyType;
 import com.example.nhom4_quanlytaichinh.model.user.User;
 
 import javax.persistence.*;
