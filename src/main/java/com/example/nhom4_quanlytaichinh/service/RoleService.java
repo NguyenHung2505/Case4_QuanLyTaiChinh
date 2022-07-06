@@ -2,7 +2,7 @@ package com.example.nhom4_quanlytaichinh.service;
 
 
 
-import com.example.nhom4_quanlytaichinh.model.user.Role;
+import com.example.nhom4_quanlytaichinh.model.Role;
 
 
 public interface RoleService {

@@ -1,7 +1,7 @@
 package com.example.nhom4_quanlytaichinh.service;
 
 
-import com.example.nhom4_quanlytaichinh.model.user.User;
+import com.example.nhom4_quanlytaichinh.model.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
