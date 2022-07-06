@@ -1,7 +1,7 @@
-package com.example.nhom4_quanlytaichinh.service.impl;
+package com.example.nhom4_quanlytaichinh.service.user.impl;
 
-import com.example.nhom4_quanlytaichinh.repository.RoleRepository;
-import com.example.nhom4_quanlytaichinh.service.RoleService;
+import com.example.nhom4_quanlytaichinh.repository.userRepo.RoleRepository;
+import com.example.nhom4_quanlytaichinh.service.user.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -3,9 +3,9 @@ package com.example.nhom4_quanlytaichinh.controller;
 
 import com.example.nhom4_quanlytaichinh.model.user.JwtResponse;
 import com.example.nhom4_quanlytaichinh.model.user.User;
-import com.example.nhom4_quanlytaichinh.service.RoleService;
-import com.example.nhom4_quanlytaichinh.service.UserService;
-import com.example.nhom4_quanlytaichinh.service.impl.JwtService;
+import com.example.nhom4_quanlytaichinh.service.user.RoleService;
+import com.example.nhom4_quanlytaichinh.service.user.UserService;
+import com.example.nhom4_quanlytaichinh.service.user.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
