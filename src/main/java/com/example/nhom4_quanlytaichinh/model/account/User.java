@@ -1,4 +1,6 @@
-package com.example.nhom4_quanlytaichinh.model;
+package com.example.nhom4_quanlytaichinh.model.account;
+
+import com.example.nhom4_quanlytaichinh.model.account.Role;
 
 import javax.persistence.*;
 import java.io.Serializable;

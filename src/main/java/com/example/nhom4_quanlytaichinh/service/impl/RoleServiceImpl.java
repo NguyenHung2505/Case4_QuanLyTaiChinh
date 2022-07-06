@@ -5,7 +5,7 @@ import com.example.nhom4_quanlytaichinh.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.nhom4_quanlytaichinh.model.Role;
+import com.example.nhom4_quanlytaichinh.model.account.Role;
 
 @Service
 public class RoleServiceImpl implements RoleService {

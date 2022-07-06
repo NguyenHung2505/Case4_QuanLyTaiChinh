@@ -3,7 +3,7 @@ package com.example.nhom4_quanlytaichinh.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.nhom4_quanlytaichinh.model.User;
+import com.example.nhom4_quanlytaichinh.model.account.User;
 import org.springframework.stereotype.Repository;
 
 

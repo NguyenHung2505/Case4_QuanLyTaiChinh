@@ -1,12 +1,12 @@
 package com.example.nhom4_quanlytaichinh.service.impl;
 
 
-import com.example.nhom4_quanlytaichinh.model.UserPrinciple;
+import com.example.nhom4_quanlytaichinh.model.account.UserPrinciple;
 import com.example.nhom4_quanlytaichinh.repository.UserRepository;
 import com.example.nhom4_quanlytaichinh.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
-import com.example.nhom4_quanlytaichinh.model.User;
+import com.example.nhom4_quanlytaichinh.model.account.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
