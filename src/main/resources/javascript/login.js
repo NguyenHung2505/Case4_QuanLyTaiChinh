@@ -86,7 +86,7 @@ function singUp() {
         },
         error: function (error) {
             console.log(error)
-            alert("Đăng kí thất bại")
+            alert("Đăng kí thất bại!")
         }
     })
 }
