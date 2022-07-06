@@ -1,6 +1,8 @@
 package com.example.nhom4_quanlytaichinh.model;
 
 
+import com.example.nhom4_quanlytaichinh.model.user.User;
+
 import javax.persistence.*;
 
 @Entity
@@ -21,18 +23,18 @@ public class Wallet {
     private MoneyType moneyType;
 
     @ManyToOne
-    private AppUser appUser; //thiếu model appuser của Hoa
+    private User user; //thiếu model appuser của Hoa
 
     public Wallet() {
     }
 
-    public Wallet(Long id, String name, String icon, double moneyAmount, MoneyType moneyType, AppUser appUser) {
+    public Wallet(Long id, String name, String icon, double moneyAmount, MoneyType moneyType, User user) {
         this.id = id;
         this.name = name;
         this.icon = icon;
         this.moneyAmount = moneyAmount;
         this.moneyType = moneyType;
-        this.appUser = appUser;
+        this.user = user;
     }
 
     public Long getId() {
@@ -75,11 +77,11 @@ public class Wallet {
         this.moneyType = moneyType;
     }
 
-    public AppUser getAppUser() {
-        return appUser;
+    public User getUser() {
+        return user;
     }
 
-    public void setAppUser(AppUser appUser) {
-        this.appUser = appUser;
+    public void setUser(User user) {
+        this.user = user;
     }
 }

@@ -1,8 +1,8 @@
 package com.example.nhom4_quanlytaichinh.controller;
 
 
-import com.example.nhom4_quanlytaichinh.model.JwtResponse;
-import com.example.nhom4_quanlytaichinh.model.User;
+import com.example.nhom4_quanlytaichinh.model.user.JwtResponse;
+import com.example.nhom4_quanlytaichinh.model.user.User;
 import com.example.nhom4_quanlytaichinh.service.RoleService;
 import com.example.nhom4_quanlytaichinh.service.UserService;
 import com.example.nhom4_quanlytaichinh.service.impl.JwtService;
@@ -22,7 +22,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 
-import com.example.nhom4_quanlytaichinh.model.Role;
+import com.example.nhom4_quanlytaichinh.model.user.Role;
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;

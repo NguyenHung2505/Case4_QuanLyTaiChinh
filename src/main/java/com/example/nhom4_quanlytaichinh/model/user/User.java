@@ -1,4 +1,4 @@
-package com.example.nhom4_quanlytaichinh.model;
+package com.example.nhom4_quanlytaichinh.model.user;
 
 import javax.persistence.*;
 import java.io.Serializable;
