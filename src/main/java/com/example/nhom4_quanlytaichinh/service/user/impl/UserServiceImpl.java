@@ -1,9 +1,9 @@
-package com.example.nhom4_quanlytaichinh.service.impl;
+package com.example.nhom4_quanlytaichinh.service.user.impl;
 
 
 import com.example.nhom4_quanlytaichinh.model.user.UserPrinciple;
-import com.example.nhom4_quanlytaichinh.repository.UserRepository;
-import com.example.nhom4_quanlytaichinh.service.UserService;
+import com.example.nhom4_quanlytaichinh.repository.userRepo.UserRepository;
+import com.example.nhom4_quanlytaichinh.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import com.example.nhom4_quanlytaichinh.model.user.User;

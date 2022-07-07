@@ -1,4 +1,4 @@
-package com.example.nhom4_quanlytaichinh.service.impl;
+package com.example.nhom4_quanlytaichinh.service.user;
 
 
 import com.example.nhom4_quanlytaichinh.model.user.UserPrinciple;
