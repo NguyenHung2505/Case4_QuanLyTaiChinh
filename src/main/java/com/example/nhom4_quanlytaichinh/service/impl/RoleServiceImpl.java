@@ -1,11 +1,11 @@
-package com.example.nhom4_quanlytaichinh.service.user.impl;
+package com.example.nhom4_quanlytaichinh.service.impl;
 
-import com.example.nhom4_quanlytaichinh.repository.userRepo.RoleRepository;
-import com.example.nhom4_quanlytaichinh.service.user.RoleService;
+import com.example.nhom4_quanlytaichinh.repository.RoleRepository;
+import com.example.nhom4_quanlytaichinh.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.nhom4_quanlytaichinh.model.user.Role;
+import com.example.nhom4_quanlytaichinh.model.Role;
 
 @Service
 public class RoleServiceImpl implements RoleService {
@@ -19,7 +19,7 @@ public class RoleServiceImpl implements RoleService {
 
     @Override
     public void save(Role role) {
-roleRepository.save(role);
+        roleRepository.save(role);
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.example.nhom4_quanlytaichinh.security.jwt;
 
-import com.example.nhom4_quanlytaichinh.service.user.UserService;
-import com.example.nhom4_quanlytaichinh.service.user.JwtService;
+import com.example.nhom4_quanlytaichinh.service.UserService;
+import com.example.nhom4_quanlytaichinh.service.impl.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

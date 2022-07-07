@@ -1,4 +1,5 @@
-package com.example.nhom4_quanlytaichinh.model.user;
+package com.example.nhom4_quanlytaichinh.model;
+
 
 import org.springframework.security.core.GrantedAuthority;
 

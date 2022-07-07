@@ -1,6 +1,4 @@
-package com.example.nhom4_quanlytaichinh.model.user;
-
-
+package com.example.nhom4_quanlytaichinh.model;
 
 import lombok.Data;
 
@@ -39,3 +37,4 @@ public class Role implements Serializable {
         this.name = name;
     }
 }
+

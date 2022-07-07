@@ -1,7 +1,7 @@
-package com.example.nhom4_quanlytaichinh.service.user;
+package com.example.nhom4_quanlytaichinh.service.impl;
 
 
-import com.example.nhom4_quanlytaichinh.model.user.UserPrinciple;
+import com.example.nhom4_quanlytaichinh.model.UserPrinciple;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

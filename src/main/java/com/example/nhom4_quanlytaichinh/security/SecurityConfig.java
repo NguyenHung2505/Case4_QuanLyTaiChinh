@@ -3,8 +3,9 @@ package com.example.nhom4_quanlytaichinh.security;
 import com.example.nhom4_quanlytaichinh.security.jwt.CustomAccessDeniedHandler;
 import com.example.nhom4_quanlytaichinh.security.jwt.JwtAuthenticationFilter;
 import com.example.nhom4_quanlytaichinh.security.jwt.RestAuthenticationEntryPoint;
-import com.example.nhom4_quanlytaichinh.service.user.UserService;
-import com.example.nhom4_quanlytaichinh.service.user.impl.UserServiceImpl;
+import com.example.nhom4_quanlytaichinh.service.UserService;
+
+import com.example.nhom4_quanlytaichinh.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -71,7 +72,7 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter {
         http.csrf().ignoringAntMatchers("/**");
         http.httpBasic().authenticationEntryPoint(restServicesEntryPoint());
         http.authorizeRequests()
-                .antMatchers("/login", "/register" , "/transactions/**").permitAll()
+                .antMatchers("/login", "/register").permitAll()
                 .antMatchers("/users/**" ).access("hasRole('ROLE_USER')")
                 .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
 //                .antMatchers(HttpMethod.GET
