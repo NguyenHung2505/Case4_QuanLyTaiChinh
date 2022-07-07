@@ -1,12 +1,11 @@
 package com.example.nhom4_quanlytaichinh.controller;
 
-import com.example.nhom4_quanlytaichinh.model.Wallet;
-import com.example.nhom4_quanlytaichinh.service.impl.WalletServiceImpl;
+import com.example.nhom4_quanlytaichinh.model.wallet.Wallet;
+import com.example.nhom4_quanlytaichinh.service.wallet.WalletServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.Optional;

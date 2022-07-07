@@ -1,7 +1,6 @@
-package com.example.nhom4_quanlytaichinh.service.impl;
-import com.example.nhom4_quanlytaichinh.model.Wallet;
-import com.example.nhom4_quanlytaichinh.repository.WalletRepository;
-import com.example.nhom4_quanlytaichinh.service.WalletService;
+package com.example.nhom4_quanlytaichinh.service.wallet;
+import com.example.nhom4_quanlytaichinh.model.wallet.Wallet;
+import com.example.nhom4_quanlytaichinh.model.wallet.WalletRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
