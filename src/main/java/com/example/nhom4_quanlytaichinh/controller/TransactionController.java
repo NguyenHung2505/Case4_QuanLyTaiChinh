@@ -1,10 +1,9 @@
 package com.example.nhom4_quanlytaichinh.controller;
 
 
-import com.example.nhom4_quanlytaichinh.model.account.Transaction;
+import com.example.nhom4_quanlytaichinh.model.Transaction;
 import com.example.nhom4_quanlytaichinh.service.Chinh.TransactionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

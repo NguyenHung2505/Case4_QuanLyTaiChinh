@@ -1,11 +1,9 @@
 package com.example.nhom4_quanlytaichinh.service.Chinh;
 
-import com.example.nhom4_quanlytaichinh.model.account.Transaction;
+import com.example.nhom4_quanlytaichinh.model.Transaction;
 import com.example.nhom4_quanlytaichinh.repository.TransactionRepository;
 import com.example.nhom4_quanlytaichinh.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
