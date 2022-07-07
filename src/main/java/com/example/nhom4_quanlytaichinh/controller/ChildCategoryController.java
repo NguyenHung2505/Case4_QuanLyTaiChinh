@@ -38,13 +38,13 @@ public class ChildCategoryController {
 //        return new ResponseEntity(childCategoryService.showExpenseCategories(), HttpStatus.OK);
 //    }
 
-    @PostMapping
+    @PostMapping()
     public ResponseEntity<Optional<ChildCategory>> save(@RequestBody ChildCategory childCategory) {
         return new ResponseEntity(childCategoryService.save(childCategory), HttpStatus.CREATED);
     }
 
-    @PutMapping()
-    public ResponseEntity<Optional<ChildCategory>> update(@RequestParam Long id, @RequestBody ChildCategory childCategory) {
+    @PutMapping("/{id}")
+    public ResponseEntity<Optional<ChildCategory>> update(@PathVariable Long id, @RequestBody ChildCategory childCategory) {
         Optional<ChildCategory> categoryOptional = childCategoryService.findById(id);
         if (!categoryOptional.isPresent()) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -53,6 +53,17 @@ public class ChildCategoryController {
         return new ResponseEntity(childCategoryService.save(childCategory), HttpStatus.OK);
 
     }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ChildCategory> delete(@PathVariable Long id) {
+        Optional<ChildCategory> productOptional = childCategoryService.findById(id);
+        if (!productOptional.isPresent()) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        childCategoryService.remove(id);
+        return new ResponseEntity<>(productOptional.get(), HttpStatus.NO_CONTENT);
+    }
+
 
 //    @GetMapping("/getChildCategory/{id}")
 //    public ResponseEntity<Iterable<ChildCategory>> getChildCategoryByParentCategory(@PathVariable("id") Long id) {
