@@ -43,7 +43,7 @@ function login() {
         url: "http://localhost:8086/login",
         data: JSON.stringify(user),
         success: function (data) {
-            alert("Đăng nhập thành công ! ")
+            alert("Đăng nhập thành công! ")
             console.log(data)
             token = data.accessToken;
             id = data.id;
@@ -53,7 +53,7 @@ function login() {
 
         },
         error: function (error) {
-            alert("Đăng nhập thất bại !")
+            alert("Đăng nhập thất bại!")
             console.log(error)
 
         }
